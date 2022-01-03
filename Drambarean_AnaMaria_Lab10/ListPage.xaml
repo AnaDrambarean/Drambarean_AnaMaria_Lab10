@@ -2,10 +2,9 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Drambarean_AnaMaria_Lab10.ListPage">
-    <ContentPage.Content xmlns:local="clr-namespace: Drambarean_AnaMaria_Lab10">
+    <ContentPage.Content xmlns:local="clr-namespace:Drambarean_AnaMaria_Lab10">
         <StackLayout Margin="20">
             <Editor Placeholder="Enter the description of the shopping list"
-
                  Text="{Binding Description}"
                  HeightRequest="100">
                 <Editor.Behaviors>
